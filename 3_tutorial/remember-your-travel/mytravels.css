@@ -1,0 +1,115 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 20px;
+    background-image: url("Beach.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;   
+    font-family: 'Grape Nuts', cursive; 
+}
+
+main {
+    display: flex;
+}
+
+header {
+    padding: 20px 30px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center;
+    font-size: x-large;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    padding: 12px, 30px;
+    background-color: rgb(192, 227, 248);
+    border: 0%;
+    border-radius: 10px;
+    box-shadow: 20%;
+    cursor: 0;
+    font-family: 'Grape Nuts', cursive;
+    font-size: medium;
+
+}
+
+section {
+    margin: 0;
+    padding: 20px;
+    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: larger;
+}
+
+.cards {
+    margin: 0 auto;
+    max-width: 1350px;
+    max-height: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap:wrap;
+    flex: 200px;
+    gap: 30px;
+}
+
+.card {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    gap: 20px;
+    text-align: center;
+    background:fixed;
+    box-shadow: rgb(54, 53, 53);
+    background-color: rgb(236, 244, 247);
+}
+
+.card__image {
+    width: 100%;
+}
+
+.card__content {
+    font-size: large;
+    padding: 15px;
+    background: rgb(227, 240, 245);
+    gap: 20px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    font-size: smaller;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+    text-align: right;
+    padding: 0;
+    column-gap: 20px;
+    list-style-type: none;
+}
+
+nav {
+    background-color: rgb(237, 240, 229);
+}
